@@ -124,10 +124,10 @@ function Home() {
             <div className="about-container">
               <h1 className="large-centered-text">Contact Me: </h1>
               <div className="cont-info">
-                <a href="http://">Resume</a>
+                <a href="https://drive.google.com/file/d/1ToiKvzcX-6Lp9mtJCiAMSOkXY0H4mjSZ/view?usp=sharing">Resume</a>
                 <br />
-                <a href="http://">GitHub</a>
-                <p>E-Mail: nicholopatrickpardines@yahoo.com</p>
+                <a href="https://github.com/nicknitride/">GitHub</a>
+                <p>E-Mail: nicholopatrickpardines@yahoo.com | nicholo.pardines@outlook.com</p>
               </div>
             </div>
           </div>
