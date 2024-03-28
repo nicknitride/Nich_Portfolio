@@ -1,0 +1,59 @@
+@import url("../css/animations.css");
+.nav-flex {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  color: black;
+  padding: 20px 40px;
+  font-weight: 600;
+}
+.nav-flex a {
+  color: black;
+  text-decoration: none;
+}
+.left-nav-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.rounded-button a {
+  padding: 10px 12px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.rounded-button a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.2s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 20px 5px;
+}
+.nav-sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+.nav-sticky + body {
+  padding-top: 59px;
+  /* prevents jitter when the nav is taken out of 
+  normal flow */
+}
+/* Mobile layout */
+@media screen and (max-width: 900px) {
+  .nav-flex {
+    font-size: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .left-nav-flex {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 100%;
+  }
+  .left-nav-flex a {
+    margin: 0;
+  }
+}
